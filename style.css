@@ -203,3 +203,21 @@ body {
     background-color:#efefef;
     border: none;
 }
+
+.right-top-header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#bell {
+    width: 30px;
+}
+
+#pp {
+    width: 50px; 
+    height: 50px;
+    border-radius: 100px;
+}
+
+.
