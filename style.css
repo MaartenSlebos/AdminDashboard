@@ -232,8 +232,23 @@ body {
     padding-left: 36px;
 }
 
+.bottom-header-right {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
 #pp2 {
     width: 75px;
     height: 75px; 
     border-radius: 100px;
+}
+
+#btn {
+    padding: 15px 30px;
+    border-radius: 32px;
+    border: none; 
+    background-color: #1992d4;
+    color: white;
+    font-size: 16px;
 }
