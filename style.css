@@ -220,4 +220,20 @@ body {
     border-radius: 100px;
 }
 
-.
+.bottom-header {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.bottom-header-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-left: 36px;
+}
+
+#pp2 {
+    width: 75px;
+    height: 75px; 
+    border-radius: 100px;
+}
