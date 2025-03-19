@@ -49,6 +49,10 @@ body {
     grid-column: 2 / 3;
     grid-row: 2 / 3; 
     background-color: #e2e8f0;
+    display: grid;
+    grid-template-rows: 1.5fr 50px 1fr;
+    padding: 12px;
+    padding-left: 0px;
 }
 
 .card {
@@ -75,4 +79,12 @@ body {
     align-self: flex-end;
     font-weight: 600;
     font-size: 24px;
+}
+
+#trending {
+    font-weight: 600;
+    font-size: 24px;
+    display: flex;
+    align-self: flex-end;
+    margin-bottom: 6px;
 }
