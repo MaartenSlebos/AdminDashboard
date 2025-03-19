@@ -184,3 +184,22 @@ body {
     display: grid;
     grid-template-columns: 5fr 2fr;
 }
+
+.left-top-header {
+    display: flex;
+}
+
+#magnify {
+    width: 35px;
+    margin-left: 30px;
+}
+
+#search-bar {
+    width: 600px;
+    margin-left: 25px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color:#efefef;
+    border: none;
+}
