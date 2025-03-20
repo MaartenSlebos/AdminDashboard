@@ -236,7 +236,7 @@ body {
 .right-top-header {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
 }
 
 #bell {
@@ -265,6 +265,7 @@ body {
     display: flex;
     align-items: center;
     gap: 50px;
+    padding-right: 12px;
 }
 
 #pp2 {
