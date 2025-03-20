@@ -153,7 +153,28 @@ body {
     background-color: #ffffff;
     border-radius: 10px;
     border-left: 10px solid #1992d4;
+    display: flex;
+    flex-direction: column;
+}
 
+#card-title {
+    height: 20%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-end; 
+    align-items: flex-start;
+    font-size: 22px;
+    padding-left: 12px;
+    font-weight: 500;
+}
+
+#card-content {
+    height: 50%;
+    padding: 12px;
+}
+
+#card-btn {
+    height: 30%;
 }
 
 #your-projects {
