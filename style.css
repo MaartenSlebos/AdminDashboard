@@ -169,12 +169,16 @@ body {
 }
 
 #card-content {
-    height: 50%;
+    height: 60%;
     padding: 12px;
 }
 
 #card-btn {
-    height: 30%;
+    height: 20%;
+    display: flex;
+    justify-content: end;
+    gap: 16px;
+    padding-right: 32px;
 }
 
 #your-projects {
@@ -289,4 +293,9 @@ body {
     width: 100%;
     background-color: #ffffff;
     border-radius: 10px;
+}
+
+#card-icon {
+    width: 25px;
+    height: 25px;
 }
